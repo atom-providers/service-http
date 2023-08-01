@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/atom-providers/http-fiber v0.0.0-20230731105539-2d036dfbfdbe
-	github.com/atom-providers/log v0.0.0-20230731102101-c690ec235b6c
+	github.com/atom-providers/log v0.0.0-20230801024233-a65b67115343
 	github.com/rogeecn/atom v1.0.3
 	go.uber.org/dig v1.17.0
 )
@@ -25,18 +25,13 @@ require (
 	github.com/mattn/go-runewidth v0.0.15 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.9 // indirect
-	github.com/philhofer/fwd v1.1.2 // indirect
 	github.com/rivo/uniseg v0.4.4 // indirect
-	github.com/rogeecn/atom-addons/providers/log v0.0.0-20230717084320-362ebc474705 // indirect
-	github.com/savsgio/dictpool v0.0.0-20221023140959-7bf2e61cea94 // indirect
-	github.com/savsgio/gotils v0.0.0-20230208104028-c358bd845dee // indirect
 	github.com/spf13/afero v1.9.5 // indirect
 	github.com/spf13/cast v1.5.1 // indirect
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/spf13/viper v1.16.0 // indirect
 	github.com/subosito/gotenv v1.4.2 // indirect
-	github.com/tinylib/msgp v1.1.8 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.48.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
