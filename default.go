@@ -1,7 +1,7 @@
 package serviceHttp
 
 import (
-    httpFiber "github.com/atom-providers/http-fiber"
+	httpFiber "github.com/atom-providers/http-fiber"
 	"github.com/atom-providers/log"
 	"github.com/rogeecn/atom/container"
 )
