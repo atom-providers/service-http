@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/atom-providers/http-fiber v0.0.0-20230731105539-2d036dfbfdbe
 	github.com/atom-providers/log v0.0.0-20230801024233-a65b67115343
-	github.com/rogeecn/atom v1.0.4
+	github.com/rogeecn/atom v1.0.6
 	go.uber.org/dig v1.17.0
 )
 
