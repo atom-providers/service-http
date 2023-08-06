@@ -3,6 +3,7 @@ package serviceHttp
 import (
 	"github.com/rogeecn/atom/container"
 	"github.com/rogeecn/atom/contracts"
+	"github.com/spf13/cobra"
 	"go.uber.org/dig"
 )
 
@@ -18,4 +19,8 @@ func Serve() error {
 	return container.Container.Invoke(func(http Http) error {
 		return http.Service.Serve()
 	})
+}
+
+func ServeE(cmd *cobra.Command, args []string) error {
+	return Serve()
 }
