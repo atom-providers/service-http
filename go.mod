@@ -3,6 +3,7 @@ module github.com/atom-providers/service-http
 go 1.18
 
 require (
+	github.com/atom-providers/app v0.0.0-20230811021217-98a085634a0a
 	github.com/atom-providers/http-fiber v0.0.0-20230801062902-dd7466ac87eb
 	github.com/atom-providers/log v0.0.0-20230801062917-0782ea50f3c5
 	github.com/rogeecn/atom v1.0.6
